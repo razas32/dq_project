@@ -1,20 +1,30 @@
 ## COE3DQ5 project
 
+### Project Overview
+This project involved the design and implementation of an Image Decompressor using digital signal processing algorithms in a hardware setting. The main challenge was to develop a system that operates efficiently under a 50 MHz clock constraint, with specific attention to latency and hardware resource optimization.
+
 ### Objective
+To build a robust and efficient image decompressor capable of handling complex processing tasks within stringent hardware constraints.
 
-The main objective of the COE3DQ5 project is to make students comfortable to work on a larger design (than the labs) that also includes the hardware implementation of several types of digital signal processing algorithms. In addition, the hardware design and implementation must meet the 50 MHz clock constraint, some latency constraints (defined indirectly through multiplier utilization constraints), while ensuring that hardware resources are not wasted.
+### Features and Technicalities
+**Hardware Design:** Implemented digital signal processing algorithms on hardware, ensuring compatibility and performance within a 50 MHz clock environment.
+**Efficient Resource Management:** Designed the system to make optimal use of hardware resources, avoiding wastage while fulfilling functional requirements.
+**Latency Considerations:** Developed the system to adhere to specific latency constraints, balancing between processing speed and resource efficiency.
 
-### Preparation
+### Development Process
+**Base Code Utilization:** Started from a foundational code base, enhancing and adapting it to meet the specific needs of the image decompressor project.
+**Software Modeling and Simulation:** Employed a software model for the image decoder to guide the development process, ensuring accuracy and efficiency.
+**Enhanced Verification:** Developed and utilized additional testbenches for thorough testing and validation of the system.
 
-The design code from the rtl sub-folder contains a copy of the code released for experiment 4 from lab 5, which is the start-up code for the project (note, only the top-level module name `experiment4` has been changed to `project`). 
+### Technical Details
+**Languages and Technologies:** The project predominantly used Verilog for hardware description, Quartus Prime for hardware synthesis, and ModelSim for simulation.
+**Key Functionalities:** The system featured efficient decoding of image data, translating it into displayable formats while maintaining image fidelity.
 
-In terms of verification, there are two main additions: a software model of the image decoder is provided in the `sw` sub-folder and the backbones for two additional testbenches are provided in the `tb` sub-folder (they can be compiled to replace the default lab 5 experiment 4 testbench by updating `compile.do` in the `sim` sub-folder).
+### Project Outcome
+The final design met all specified requirements, demonstrating efficient decoding capabilities and maintaining performance under the set clock constraint. The project showcased my ability to apply hardware engineering principles to practical problems, deepening my understanding of digital signal processing in a hardware context.
 
-* Revise the five labs
-* Read [this](doc/3dq5-2023-project-description.pdf) detailed project document and get familiarized with the software model from the `sw` sub-folder 
-* Attend the forthcoming classes because they are focused almost exclusively on the project (conceptual understanding, main challenges, thought process, design decisions, verification plan, ...)
-* If needed, any updates, changes, revisions, ... will be communicated to the entire class in due time
-
-### Evaluation
-
-Push your source code and the 4-page report in GitHub before Monday November 27 at 11 pm. The report should be in PDF format and should be placed in the `doc` sub-folder. Further details concerning the expectations for the project report and the cross-examinations in the week of November 27 will be provided in due time.
+### Repository Contents
+rtl/: Contains the base Verilog code for the project.
+sw/: Includes the software model for the image decoder.
+tb/: Testbenches for system verification and testing.
+doc/: Documentation and detailed report on the project.
