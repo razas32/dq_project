@@ -6,14 +6,18 @@ This project involved the design and implementation of an Image Decompressor usi
 ### Objective
 To build a robust and efficient image decompressor capable of handling complex processing tasks within stringent hardware constraints.
 
+### Constraints
+**75% mutiplier utilization rate.\
+**Access to 4 multipliers.
+
 ### Features and Technicalities
 **Hardware Design:** Implemented digital signal processing algorithms on hardware, ensuring compatibility and performance within a 50 MHz clock environment.\
-**Efficient Resource Management:** Designed the system to make optimal use of hardware resources, avoiding wastage while fulfilling functional requirements.\
-**Latency Considerations:** Developed the system to adhere to specific latency constraints, balancing between processing speed and resource efficiency.
+**Efficient Resource Management:** Designed the system to make optimal use of hardware resources, the 4 multipliers, avoiding wastage while fulfilling functional requirements.\
+**Latency Considerations:** Developed the system to adhere to specific latency constraints, between processing speed and a 75% multiplier efficiency.
 
 ### Development Process
-**Base Code Utilization:** Started from a foundational code base, enhancing and adapting it to meet the specific needs of the image decompressor project.\
-**Software Modeling and Simulation:** Employed a software model for the image decoder to guide the development process, ensuring accuracy and efficiency.\
+**Base Code Utilization:** Started from a foundational code snippets, including SRAM & DP-RAM modules, testbenches, & more, enhancing and adapting it to meet the specific needs of the image decompression project.\
+**Software Modeling and Simulation:** Employed a software model for the image decoder to guide the development process, ensuring accuracy.\
 **Enhanced Verification:** Developed and utilized additional testbenches for thorough testing and validation of the system.
 
 ### Technical Details
