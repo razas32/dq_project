@@ -1,4 +1,4 @@
-## COE3DQ5 project
+## COE3DQ5 Project, *cloned from GitHub classroom*
 
 ### Project Overview
 This project involved the design and implementation of an Image Decompressor using digital signal processing algorithms in a hardware setting. The main challenge was to develop a system that operates efficiently under a 50 MHz clock constraint, with specific attention to latency and hardware resource optimization.
