@@ -7,8 +7,8 @@ This project involved the design and implementation of an Image Decompressor usi
 To build a robust and efficient image decompressor capable of handling complex processing tasks within stringent hardware constraints.
 
 ### Constraints
-**75% mutiplier utilization rate.\
-**Access to 4 multipliers.
+**Latency:** 75% mutiplier utilization rate.\
+**Hardware:** Access to 4 multipliers.
 
 ### Features and Technicalities
 **Hardware Design:** Implemented digital signal processing algorithms on hardware, ensuring compatibility and performance within a 50 MHz clock environment.\
